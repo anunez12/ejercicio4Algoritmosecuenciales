@@ -165,9 +165,10 @@ public class Ejercicio4 extends javax.swing.JFrame {
 
     private void txtCuadradosKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCuadradosKeyTyped
         char c=evt.getKeyChar(); 
-        if(!Character.isDigit(c) && c != '.') { 
+        if(!Character.isDigit(c)){
               getToolkit().beep(); 
-              evt.consume(); 
+              evt.consume();  
+              
     }//GEN-LAST:event_txtCuadradosKeyTyped
     }
     /**
